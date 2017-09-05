@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Kai Liu's Blog"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Kai Liu"
+description              : "An amazing blog website for algorithms, GIS, Cloud computing."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -70,18 +70,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          : "UA-105364296-2"
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Kai Liu"
+  avatar           : "https://scholar.google.com/citations?view_op=medium_photo&user=XqxiGUkAAAAJ&citpid=3"
+  bio              : "Full-Stack Engineer, GIS Engineer"
+  location         : "St. Louis, MO"
+  email            : "kliu.gis@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,17 +89,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "kliu-gis"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "kai-liu-12177b66"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  stackoverflow    : "8520779/kai-liu"
+  steam            :
   tumblr           :
   twitter          :
   vine             :
@@ -241,9 +241,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
       comments: # true
       share: true
       related: true
-
-theme: jekyll-theme-minimal
