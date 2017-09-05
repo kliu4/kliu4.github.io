@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Volunteer Computing"
+    url: https://kliu4.github.io/categories/#volunteer-computing
+  - title: "Algorithms"
+    url: https://kliu4.github.io/categories/#algorithm
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
