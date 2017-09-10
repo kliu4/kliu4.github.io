@@ -10,7 +10,7 @@ tags:
 
 ## Introduction
 
-Today I got error when I tried to start the Boinc daemons:
+Today I got an error when I tried to start the Boinc daemons:
 
 ```liquid
 boincadm@climateathome:~/projects/climateathome$ bin/start 
