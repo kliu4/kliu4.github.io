@@ -14,4 +14,6 @@ Today, I added a new post about graph. But the Github Pages did not automaticall
 
 ## Solution
 
-"Cut" the content of index.html and commit. Then it will rebuild. Then copy the content back to index.html and it will conduct another rebuiding. 
+* "Cut" the content of index.html and commit.   
+* Then it will rebuild.   
+* Then copy the content back to index.html and it will conduct another rebuiding. 
