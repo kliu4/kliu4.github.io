@@ -23,7 +23,4 @@ There are directions in the graph and the directions always matter
 
 ### Representations of Graph
 
-Using following graph as example  
-<a href="/assets/images/posts/2017-09-10/1.png"><img src="/assets/images/posts/2017-09-10/1.png"></a>  
-
 **Adjancy-List Graph**
