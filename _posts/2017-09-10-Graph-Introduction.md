@@ -10,9 +10,16 @@ tags:
 
 ## Introduction
 
-### Two Types of Graph
-**Directed Graph**  
-**UnDirected Graph**
+### Two Types of Graph  
+
+**UnDirected Graph**  
+No directions in the graph, 
+<a href="/assets/images/posts/2017-09-10/1.png"><img src="/assets/images/posts/2017-09-10/1.png"></a>  
+
+**Directed Graph**
+There are directions in the graph and the directions always matter
+
+
 
 ### Representations of Graph
 
