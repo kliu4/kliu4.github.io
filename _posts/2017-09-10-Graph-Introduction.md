@@ -17,7 +17,7 @@ No directions in the graph
 <a href="/assets/images/posts/2017-09-10/1.png"><img src="/assets/images/posts/2017-09-10/1.png"></a>  
 
 **Directed Graph**  
-There are directions in the graph and the directions always matter
+There are directions in the graph and the directions always matter  
 <a href="/assets/images/posts/2017-09-10/4.png"><img src="/assets/images/posts/2017-09-10/4.png"></a> 
 
 
