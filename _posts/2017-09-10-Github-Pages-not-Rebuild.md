@@ -3,7 +3,9 @@ title: "Github Pages not Rebuild"
 categories:
   - Github
 tags:
-  - Github, Minimum-Mistakes, Jekyll
+  - Github
+  - Minimum Mistakes
+  - Jekyll
 ---
 
 {% include toc title="Github Pages not Rebuild" icon="file-text" %}
