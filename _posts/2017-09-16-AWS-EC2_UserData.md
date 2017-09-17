@@ -8,7 +8,7 @@ tags:
   - Cloud-init
 ---
 
-{% include toc title="AWS EC2 UserData" icon="file-text" %}
+{% include toc title="AWS EC2 User Data" icon="file-text" %}
 
 ## Introduction
 
@@ -28,9 +28,9 @@ In this example, the first line is mandatory. Each User Data with shell scripts 
 ## Append User Data after launch
 
 Sometimes after instance launch, we still want to append some shell scripts. So AWS provides the fucntion to change the User Data:  
-*Stop the instance
-*Click View/Change User Data to edit the User Data
-*Start the instance
+*Stop the instance  
+*Click View/Change User Data to edit the User Data  
+*Start the instance  
 
 However, you need user `multipart` to append the file. Following is the example from AWS website  
 ```liquid
@@ -60,12 +60,12 @@ Content-Disposition: attachment; filename="userdata.txt"
 
 For the above example, you could replace the lines under `#!/bin/bash` but you need keep all the lines above it. This is because:
 
-*It uses mime-multipart to append the User Data
-*It uses `[scripts-user, always]` to run the User Data
+*It uses mime-multipart to append the User Data  
+*It uses `[scripts-user, always]` to run the User Data  
 
 ## Cloud-init log path
 
-*/var/lib/cloud/instance/scripts/, e.g., part-001
-*/var/log/cloud-init.log
-*/var/log/cloud-init-output.log
+*/var/lib/cloud/instance/scripts/, e.g., part-001  
+*/var/log/cloud-init.log  
+*/var/log/cloud-init-output.log  
 
