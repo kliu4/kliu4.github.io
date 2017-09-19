@@ -1,11 +1,13 @@
 # main links
 main:
-  - title: "Volunteer Computing"
-    url: https://kliu4.github.io/categories/#volunteer-computing
   - title: "Algorithms"
     url: https://kliu4.github.io/categories/#algorithm
-  - title: "Cloud"
-    url: https://kliu4.github.io/categories/#cloud
+  - title: "Computing"
+    url: https://kliu4.github.io/categories/#computing
+  - title: "Swift"
+    url: https://kliu4.github.io/categories/#swift
+  - title: "React"
+    url: https://kliu4.github.io/categories/#react
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
