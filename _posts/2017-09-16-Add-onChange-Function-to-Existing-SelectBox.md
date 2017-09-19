@@ -1,5 +1,5 @@
 ---
-title: "AWS EC2 User Data"
+title: "Add onChange function to an existing checkbox"
 categories:
   - React
 tags:
