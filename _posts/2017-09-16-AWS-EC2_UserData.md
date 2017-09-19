@@ -1,11 +1,12 @@
 ---
 title: "AWS EC2 User Data"
 categories:
-  - Cloud
+  - Computing
 tags:
   - AWS
   - EC2
   - Cloud-init
+  - Cloud Computing
 ---
 
 {% include toc title="AWS EC2 User Data" icon="file-text" %}
