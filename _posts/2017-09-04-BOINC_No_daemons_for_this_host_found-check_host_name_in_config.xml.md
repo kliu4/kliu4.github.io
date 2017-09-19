@@ -1,9 +1,10 @@
 ---
 title: "No daemons for this host found - check host name in config.xml"
 categories:
-  - Volunteer Computing
+  - Computing
 tags:
   - BOINC
+  - Volunteer Computing
 ---
 
 {% include toc title="No daemons for this host found - check host name in config.xml" icon="file-text" %}
