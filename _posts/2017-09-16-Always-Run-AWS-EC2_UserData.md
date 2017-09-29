@@ -1,5 +1,5 @@
 ---
-title: "AWS EC2 User Data"
+title: "Always Run AWS EC2 User Data when Instance Starts"
 categories:
   - Computing
 tags:
@@ -9,7 +9,7 @@ tags:
   - Cloud Computing
 ---
 
-{% include toc title="AWS EC2 User Data" icon="file-text" %}
+{% include toc title="Always Run AWS EC2 User Data when Instance Starts" icon="file-text" %}
 
 ## Introduction
 
