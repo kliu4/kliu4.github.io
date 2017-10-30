@@ -25,6 +25,8 @@ Given a string consists of lower English letters only, your job is to count the 
 
 Using DP to save the least print times from index i to index j.
 
+Beat 99.8%
+
 
 ```liquid
 public class T664StrangePrinter {
