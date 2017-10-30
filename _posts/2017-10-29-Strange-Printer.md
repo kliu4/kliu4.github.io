@@ -21,11 +21,12 @@ Given a string consists of lower English letters only, your job is to count the 
 
 
 ## Solution
-```liquid
+
 
 Using DP to save the least print times from index i to index j.
 
 
+```liquid
 public class T664StrangePrinter {
 	private int[][] dp;
 
