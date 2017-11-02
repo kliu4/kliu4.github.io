@@ -1,5 +1,5 @@
 ---
-title: "Spring Boot Thymeleaf Parsing Document Exception"
+title: "Using React Bootstrap Table"
 categories:
   - ReactJS
 tags:
