@@ -10,7 +10,7 @@ tags:
 
 {% include toc title="Use React Modal in React Bootstrap Table" icon="file-text" %}
 
-## Install React Icons
+## Install React Modal
 
 ```
 npm install react-modal --save
