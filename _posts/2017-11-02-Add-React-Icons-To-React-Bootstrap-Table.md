@@ -1,9 +1,9 @@
 ---
 title: "Add React Icons to React Bootstrap Table"
 categories:
-  - ReactJS
+  - React
 tags:
-  - ReactJS
+  - React
   - React Icons
   - React Bootstrap Table
 ---
