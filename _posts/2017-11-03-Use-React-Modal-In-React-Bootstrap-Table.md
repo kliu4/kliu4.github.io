@@ -12,7 +12,7 @@ tags:
 
 ## Install React Modal
 
-```
+```liquid
 npm install react-modal --save
 ```
 
@@ -20,7 +20,7 @@ npm install react-modal --save
 
 Note, the react icons website has error. The icons should be imported like following:
 
-```
+```liquid
 import Modal from 'react-modal';
 ```
 
@@ -29,7 +29,7 @@ import Modal from 'react-modal';
 
 Create a modal 
 
-```
+```liquid
 class UploadFormatter extends React.Component {
   constructor() {
     super();
@@ -89,7 +89,7 @@ class UploadFormatter extends React.Component {
 
 ## Final File
 
-```
+```liquid
 import React, { Component } from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
