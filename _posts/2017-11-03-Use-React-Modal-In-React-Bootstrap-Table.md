@@ -16,7 +16,7 @@ tags:
 npm install react-modal --save
 ```
 
-## Import Icons 
+## Import React Modal 
 
 Note, the react icons website has error. The icons should be imported like following:
 
@@ -25,7 +25,7 @@ import Modal from 'react-modal';
 ```
 
 
-## Render Icons in Component
+## Create a Modal
 
 Create a modal 
 
