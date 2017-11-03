@@ -33,7 +33,7 @@ Following is to create icon with size 32 and color (Amazon Orange)
 class ActiveFormatter extends React.Component {
   render() {
     return (
-      <div style={{color: 'rgb(255,153,0)'}}>
+      <div style= { {color: 'rgb(255,153,0)' } }>
         <FaCloudUpload size={32} />
       </div>
     );
@@ -75,7 +75,7 @@ function priceFormatter(cell, row){
 class UploadFormatter extends React.Component {
   render() {
     return (
-      <div style={{color: 'rgb(255,153,0)'}}>
+      <div style= { {color: 'rgb(255,153,0)'} }>
         <FaCloudUpload size={32} />
       </div>
     );
