@@ -12,7 +12,7 @@ tags:
 
 ## Create React App and start
 
-```
+```liquid
 create-react-app mytable
 npm start
 ```
@@ -21,7 +21,7 @@ npm start
 
 We need to install the Bootstrap as well. It is used to provide bootstrap css file.
 
-```
+```liquid
 npm install --save react-bootstrap-table
 npm install bootstrap@4.0.0-beta.2
 ```
@@ -40,7 +40,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 Change the App.js to following to test
 
-```
+```liquid
 import React, { Component } from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
