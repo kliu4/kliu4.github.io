@@ -1,9 +1,9 @@
 ---
 title: "Using React Bootstrap Table"
 categories:
-  - ReactJS
+  - React
 tags:
-  - ReactJS
+  - React
   - React Bootstrap Table
   - Twitter Bootstrap
 ---
