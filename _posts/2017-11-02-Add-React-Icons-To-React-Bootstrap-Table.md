@@ -29,7 +29,7 @@ import FaCloudUpload from 'react-icons/lib/fa/cloud-upload';
 
 Following is to create icon with size 32 and color (Amazon Orange)
 
-```
+```liquid
 class ActiveFormatter extends React.Component {
   render() {
     return (
@@ -43,7 +43,7 @@ class ActiveFormatter extends React.Component {
 
 ## Final File
 
-```
+```liquid
 import React, { Component } from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
