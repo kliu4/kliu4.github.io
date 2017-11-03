@@ -39,6 +39,12 @@ class ActiveFormatter extends React.Component {
     );
   }
 }
+
+function uploadFormatter(cell, row) {
+  return (
+    <UploadFormatter active={ cell } />
+  );
+}
 ```
 
 ## Final File
