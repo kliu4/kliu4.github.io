@@ -44,4 +44,5 @@ class ActiveFormatter extends React.Component {
 
 Wirte the code in following block:
 
-{% raw %}{% raw %} {% endraw %}  {% endraw %}
+ {% raw %}{%{% endraw %} raw %}
+ {% raw %}{%{% endraw %} endraw %}
