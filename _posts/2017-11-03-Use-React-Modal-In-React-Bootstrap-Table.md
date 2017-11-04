@@ -29,6 +29,7 @@ import Modal from 'react-modal';
 
 Create a modal 
 
+{% raw %}
 ```liquid
 class UploadFormatter extends React.Component {
   constructor() {
@@ -86,9 +87,11 @@ class UploadFormatter extends React.Component {
   }
 }
 ```
+{% endraw %}
 
 ## Final File
 
+{% raw %}
 ```liquid
 import React, { Component } from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
@@ -215,3 +218,4 @@ class App extends Component {
 
 export default App;
 ```
+{% endraw %}
