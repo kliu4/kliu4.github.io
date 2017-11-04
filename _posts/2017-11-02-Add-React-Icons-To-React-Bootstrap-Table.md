@@ -51,6 +51,7 @@ function uploadFormatter(cell, row) {
 
 ## Final File
 
+{% raw %}
 ```liquid
 import React, { Component } from 'react';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
@@ -106,5 +107,5 @@ class App extends Component {
 }
 
 export default App;
-
+{% endraw %}
 ```
