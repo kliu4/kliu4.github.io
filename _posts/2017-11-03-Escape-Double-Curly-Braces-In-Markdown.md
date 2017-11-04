@@ -12,7 +12,7 @@ tags:
 ## Introduction
 
 I have following code in markdown 
-
+ {% raw %}
 ```
 class ActiveFormatter extends React.Component {
   render() {
@@ -24,7 +24,8 @@ class ActiveFormatter extends React.Component {
   }
 }
 ```
-
+ {% endraw %}
+ 
 but it was rendered to following in the blog:
 
 ```
@@ -44,5 +45,7 @@ class ActiveFormatter extends React.Component {
 
 Wirte the code in following block:
 
+```
  {% raw %}{%{% endraw %} raw %}
  {% raw %}{%{% endraw %} endraw %}
+```
