@@ -48,9 +48,7 @@ Wirte the code in following block:
 
 {% raw %}
 
-```
-{% raw %}
-{% endraw %}
-```
+`{% raw %}`
+`{% endraw %}`
 
 {% endraw %}
