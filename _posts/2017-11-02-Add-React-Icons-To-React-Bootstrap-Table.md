@@ -29,11 +29,12 @@ import FaCloudUpload from 'react-icons/lib/fa/cloud-upload';
 
 Following is to create icon with size 32 and color (Amazon Orange)
 
-```liquid
+{% raw %}
+```
 class ActiveFormatter extends React.Component {
   render() {
     return (
-      <div style= { {color: 'rgb(255,153,0)' } }>
+      <div style={{color: 'rgb(255,153,0)'}}>
         <FaCloudUpload size={32} />
       </div>
     );
@@ -46,6 +47,7 @@ function uploadFormatter(cell, row) {
   );
 }
 ```
+{% endraw %}
 
 ## Final File
 
