@@ -13,7 +13,6 @@ tags:
 
 I have following code in markdown 
 
-{% raw %}
 ```
 class ActiveFormatter extends React.Component {
   render() {
@@ -25,7 +24,6 @@ class ActiveFormatter extends React.Component {
   }
 }
 ```
-{% endraw %}
 
 but it was rendered to following in the blog:
 
