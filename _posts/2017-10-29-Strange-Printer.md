@@ -5,6 +5,7 @@ categories:
 tags:
   - Algorithm
   - DP
+  - Leetcode
 ---
 
 {% include toc title="Strange Printer" icon="file-text" %}
