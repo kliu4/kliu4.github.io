@@ -64,7 +64,7 @@ class AttachmentBody extends React.Component {
           uploadRequestHeaders={{ 'x-amz-acl': 'public-read' }}
           contentDisposition="auto"
           scrubFilename={(filename) => filename.replace(/[^\w\d_\-.]+/ig, '')}
-          server={`${fieldComplianceApiUrl}`} />
+          server="http://localhost:3001" />
         <br />
         <div>
           <ProgressBar striped bsStyle="success" now={this.state.completed}  label={`${this.state.completed}%`}/>
