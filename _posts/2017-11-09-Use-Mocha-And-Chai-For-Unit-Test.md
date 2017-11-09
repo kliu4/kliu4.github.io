@@ -21,6 +21,14 @@ npm install chai --save
 
 ## Test Fucntions
 
+Change test scripts in `package.json` to following:
+
+```
+  "scripts": {
+    "test": "mocha"
+  },
+```
+
 app.js
 
 {% raw %}
