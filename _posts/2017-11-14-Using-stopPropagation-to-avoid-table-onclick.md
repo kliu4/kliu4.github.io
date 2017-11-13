@@ -61,7 +61,7 @@ describe('AttachmentModal', () => {
   it('should open modal when button is clicked', () => {
     const wrapper = shallow(<AttachmentModal {...minProps}/>);
     wrapper.find(FaCloudUpload).simulate('click', { stopPropagation: () => undefined });
-    expect(wrapper.find(Modal).prop('modalIsOpen')).to.equal(true);
+    expect(wrapper.find(Modal).prop('isOpen')).to.equal(true);
   });
 });
 ```
