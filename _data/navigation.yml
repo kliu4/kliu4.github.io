@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Algorithms"
+  - title: "Algorithm"
     url: https://kliu4.github.io/categories/#algorithm
   - title: "Computing"
     url: https://kliu4.github.io/categories/#computing
+  - title: "Java"
+    url: https://kliu4.github.io/categories/#java
   - title: "Swift"
     url: https://kliu4.github.io/categories/#swift
   - title: "React"
