@@ -37,3 +37,19 @@ public int height(TreeNode root){
     return 1 + Math.max(height(root.left), height(root.right));
 }
 ```
+
+
+## Naive Tree BFS
+
+public void breadth(TreeNode root) {
+    if (root == null)
+        return;
+    Queue<TreeNode> queue = new LinkedList<BinaryTree.TreeNode>() ;
+    queue.offer(root);
+    while(!queue.isEmpty()){
+        TreeNode node = queue.poll();
+        // Add your handle functions here, e.g.,  System.out.print(node.element + " ");
+        if(node.left != null) queue.offer(node.left);
+        if(node.right != null) queue.offer(node.right);
+    }
+}
