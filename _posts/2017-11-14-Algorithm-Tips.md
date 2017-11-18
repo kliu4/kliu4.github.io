@@ -41,6 +41,7 @@ public int height(TreeNode root){
 
 ## Naive Tree BFS
 
+```
 public void breadth(TreeNode root) {
     if (root == null)
         return;
@@ -53,3 +54,4 @@ public void breadth(TreeNode root) {
         if(node.right != null) queue.offer(node.right);
     }
 }
+```
