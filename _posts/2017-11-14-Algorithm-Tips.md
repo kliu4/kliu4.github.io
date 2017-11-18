@@ -42,16 +42,33 @@ public int height(TreeNode root){
 ## Naive Tree BFS
 
 ```
-public void breadth(TreeNode root) {
-    if (root == null)
-        return;
+public void bfs(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<TreeNode>() ;
     queue.offer(root);
     while(!queue.isEmpty()){
         TreeNode node = queue.poll();
-        // Add your handle functions here, e.g.,  System.out.print(node.element + " ");
+        // Do your business here, e.g.,  System.out.print(node.element + " ");
         if(node.left != null) queue.offer(node.left);
         if(node.right != null) queue.offer(node.right);
+    }
+}
+```
+
+## Naive Tree Level Order BFS
+
+```
+public void levelBfs(TreeNode root) {
+    Queue<TreeNode> queue = new LinkedList<TreeNode>();
+    queue.add(root);
+    while(!queue.isEmpty()){
+        int size = queue.size();
+        for(int i = 0; i < size; i++){
+            TreeNode node = queue.poll();
+            //Do your business
+            if(node.left != null) queue.offer(node.left);
+            if(node.right != null) queue.offer(node.right);
+        }
+       //Do your business
     }
 }
 ```
