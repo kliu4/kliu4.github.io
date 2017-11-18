@@ -45,7 +45,7 @@ public int height(TreeNode root){
 public void breadth(TreeNode root) {
     if (root == null)
         return;
-    Queue<TreeNode> queue = new LinkedList<BinaryTree.TreeNode>() ;
+    Queue<TreeNode> queue = new LinkedList<TreeNode>() ;
     queue.offer(root);
     while(!queue.isEmpty()){
         TreeNode node = queue.poll();
