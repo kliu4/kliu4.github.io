@@ -20,4 +20,8 @@ E.g., Alaphgo
 
 **T** is the task of playing go games
 
+## Supervised machine learning
+
+learing from the training data set, then improve the performance. E.g., using twitter data to predict the sentiment. 
+
 
