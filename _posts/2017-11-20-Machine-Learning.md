@@ -29,3 +29,7 @@ Supervised learning problems are categorized into "regression" and "classificati
 ## Unsupervised machine learning
 
 giving the machine data and expect the machine return the correct answer. E.g., `alphago zero` uses unsupervised machine learning.
+
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
+
+We can derive this structure by clustering the data based on relationships among the variables in the data.
