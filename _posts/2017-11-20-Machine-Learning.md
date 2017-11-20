@@ -22,6 +22,10 @@ E.g., Alaphgo
 
 ## Supervised machine learning
 
-learing from the training data set, then improve the performance. E.g., using twitter data to predict the sentiment. 
+learing from the training data set with the correct answer, then improve the performance. E.g., using twitter data to predict the sentiment. 
 
 Supervised learning problems are categorized into "regression" and "classification" problems.
+
+## Unsupervised machine learning
+
+giving the machine data and expect the machine return the correct answer. E.g., `alphago zero` uses unsupervised machine learning.
