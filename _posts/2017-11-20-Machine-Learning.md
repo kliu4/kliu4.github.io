@@ -33,3 +33,11 @@ giving the machine data and expect the machine return the correct answer. E.g., 
 Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
 
 We can derive this structure by clustering the data based on relationships among the variables in the data.
+
+## Linear Regression
+
+Givin a trainding data set to determin the hypothesis using like y = a + bx, it is one variable function. choose a and b to make the hyposhesis is close to the training data's y. 
+
+
+
+
