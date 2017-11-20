@@ -38,6 +38,12 @@ while (number > 0) {
 2^x = 1 << x;
 ```
 
+## Get Kth (start form 0) binary digital
+
+```
+return (num >> k) & 1;
+```
+
 ## Binary Tree's Height
 
 
