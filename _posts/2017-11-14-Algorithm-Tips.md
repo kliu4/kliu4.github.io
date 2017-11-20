@@ -21,6 +21,17 @@ int generateGCD(int a,int b){
 ```
 {% endraw %}
 
+## Get Digits of Int
+
+{% raw %}
+```liquid
+while (number > 0) {
+    print( number % 10);
+    number = number / 10;
+}
+```
+{% endraw %}
+
 ## Two's Exponent
 
 ```
