@@ -21,7 +21,7 @@ int generateGCD(int a,int b){
 ```
 {% endraw %}
 
-## Get Digits of Int
+## Get Digits of Positive Int
 
 {% raw %}
 ```liquid
