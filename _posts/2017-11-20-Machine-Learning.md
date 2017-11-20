@@ -38,6 +38,13 @@ We can derive this structure by clustering the data based on relationships among
 
 Givin a trainding data set to determin the hypothesis using like y = a + bx, it is one variable function. choose a and b to make the hyposhesis is close to the training data's y. 
 
+## Cost Function
 
+Cost function is used to measure the average acuracy of the hyperthesis function. 
+
+
+## Gradient Descent
+
+An interate way to find the a and b. It needs to update a and b simultaneously.
 
 
