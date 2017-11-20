@@ -24,4 +24,4 @@ E.g., Alaphgo
 
 learing from the training data set, then improve the performance. E.g., using twitter data to predict the sentiment. 
 
-
+Supervised learning problems are categorized into "regression" and "classification" problems.
