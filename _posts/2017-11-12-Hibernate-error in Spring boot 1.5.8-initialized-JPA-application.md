@@ -32,7 +32,7 @@ Don't need to add the hibernate dependency, just change the Spring Boot Version 
  <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.8</version>
+        <version>2.0.0.BUILD-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 ```
