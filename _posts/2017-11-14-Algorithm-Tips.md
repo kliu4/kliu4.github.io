@@ -112,3 +112,27 @@ public int[] top3(int[] nums) {
     return new int[]{max3, max2, max1};
 }
 ```
+
+## Binary search
+
+If the value is found, return the index; else return `-(low + 1)` while `low` is the insert position
+
+```
+private static int binarySearch0(long[] a, int fromIndex, int toIndex, long key) {
+    int low = fromIndex;
+    int high = toIndex - 1;
+
+    while (low <= high) {
+        int mid = (low + high) >>> 1;
+        long midVal = a[mid];
+
+        if (midVal < key)
+            low = mid + 1;
+        else if (midVal > key)
+            high = mid - 1;
+        else
+            return mid; // key found
+     }
+   return -(low + 1);  // key not found.
+}
+```
