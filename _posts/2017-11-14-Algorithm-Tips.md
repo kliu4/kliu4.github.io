@@ -182,12 +182,13 @@ public class UnionFind {
 		int rootQ = find(q);
 		if (rootP == rootQ) return;
 
-		if (size[rootP] < size[rootQ]) parent[rootP] = rootQ;
-		else if (size[rootP] > size[rootQ]) parent[rootQ] = rootP;
-		else {
-			parent[rootQ] = rootP;
-			size[rootP]++;
-		}
+		if (size[rootP] < size[rootQ]){
+        parent[rootP] = rootQ;
+        size[rootQ] += size[rootP];
+    }else{
+        parent[rootQ] = rootP;
+        size[rootP] += size[rootQ];
+    }
 		count--;
 	}
 }
