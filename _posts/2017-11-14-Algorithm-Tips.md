@@ -136,3 +136,59 @@ private static int binarySearch0(long[] a, int fromIndex, int toIndex, long key)
    return -(low + 1);  // key not found.
 }
 ```
+
+## Union-Find
+
+`Union-Find` is used to solve the nework connectivity, e.g., to check if there is cycle in set, to find disjoint sets. 
+
+`Union` command is to conenct to sets. `Union by rank` always attaches the shorter tree to the root of the taller tree. 
+
+`Find` command is to find the parent of a node.
+
+```liquid
+public class UnionFind {
+	private int[] parent;
+	private int[] size;
+	private int count;
+
+	public UnionFind(int n) {
+		count = n;
+		parent = new int[n];
+		size = new int[n];
+		for (int i = 0; i < n; i++) {
+			parent[i] = i;
+			size[i] = 0;
+		}
+	}
+
+	public int find(int p) {
+		while (p != parent[p]) {
+			parent[p] = parent[parent[p]];
+			p = parent[p];
+		}
+		return p;
+	}
+
+	public int count() {
+		return count;
+	}
+
+	public boolean connected(int p, int q) {
+		return find(p) == find(q);
+	}
+
+	public void union(int p, int q) {
+		int rootP = find(p);
+		int rootQ = find(q);
+		if (rootP == rootQ) return;
+
+		if (size[rootP] < size[rootQ]) parent[rootP] = rootQ;
+		else if (size[rootP] > size[rootQ]) parent[rootQ] = rootP;
+		else {
+			parent[rootQ] = rootP;
+			size[rootP]++;
+		}
+		count--;
+	}
+}
+```
