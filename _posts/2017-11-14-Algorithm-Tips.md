@@ -56,6 +56,12 @@ public int height(TreeNode root){
 ```
 
 
+## Split with Lookahead example
+
+```
+String[] strs = equation.split("(?=[+-])");
+```
+
 ## Naive Tree BFS
 
 ```
