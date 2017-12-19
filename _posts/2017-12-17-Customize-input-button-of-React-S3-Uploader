@@ -8,9 +8,11 @@ tags:
 
 {% include toc title="Customize the input for React-S3-Uploader" icon="file-text" %}
 
-## Problem I
+## Problem
 
 The default file input of React-S3-Uploader is very ugly, we could use `bootstrap` to customize it. Following is to customize it and add a progressbar
+
+## Solution
 
 <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/customize-react-s3-uploader.png"></a>
 
