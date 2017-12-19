@@ -1,0 +1,42 @@
+---
+title: "Customize the input for React-S3-Uploader"
+categories:
+  - React
+tags:
+  - React
+---
+
+{% include toc title="Customize the input for React-S3-Uploader" icon="file-text" %}
+
+## Problem I
+
+The default file input of React-S3-Uploader is very ugly, we could use `bootstrap` to customize it. Following is to customize it and add a progressbar
+
+{% raw %}
+```liquid
+<div className="input-group">
+                    <label className="input-group-btn">
+                    <span className="btn btn-primary">
+                        <Glyphicon glyph="paperclip" />Browse
+                        <ReactS3Uploader style={{display: 'none'}}
+                                         signingUrl="s3/sign"
+                                         signingUrlMethod="GET"
+                                         preprocess={this.onUploadStart}
+                                         onProgress={this.onUploadProgress}
+                                         onFinish={this.onUploadFinish}
+                                         signingUrlHeaders={getAuthHeader()}
+                                         uploadRequestHeaders={{'x-amz-acl': 'public-read'}}
+                                         contentDisposition="attachment"
+                                         scrubFilename={(filename) => filename.replace(/[^\w\d_\-.]+/ig, '')}
+                                         server={`${fieldComplianceApiUrl}`}/>
+                    </span>
+                    </label>
+                    <FormControl readOnly value={this.state.file}/>
+                </div>
+                <br/>
+                <div>
+                    <ProgressBar striped bsStyle="success" now={this.state.completed}
+                                 label={`${this.state.completed}%`}/>
+                </div>
+```
+{% endraw %}
