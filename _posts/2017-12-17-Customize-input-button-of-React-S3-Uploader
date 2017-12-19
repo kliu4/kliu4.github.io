@@ -12,6 +12,8 @@ tags:
 
 The default file input of React-S3-Uploader is very ugly, we could use `bootstrap` to customize it. Following is to customize it and add a progressbar
 
+<a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/customize-react-s3-uploader.png"></a>
+
 {% raw %}
 ```liquid
 <div className="input-group">
