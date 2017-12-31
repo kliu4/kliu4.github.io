@@ -1,12 +1,12 @@
 ---
-title: "Customize the input for React-S3-Uploader"
+title: "Customize the Input for React-S3-Uploader"
 categories:
   - React
 tags:
   - React
 ---
 
-{% include toc title="Customize the input for React-S3-Uploader" icon="file-text" %}
+{% include toc title="Customize the Input for React-S3-Uploader" icon="file-text" %}
 
 ## Problem
 
