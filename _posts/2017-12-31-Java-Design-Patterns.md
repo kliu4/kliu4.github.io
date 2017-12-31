@@ -3,7 +3,6 @@ title: "Java Design Patterns"
 categories:
   - Java
 tags:
-  - Design Patterns
   - Java
 ---
 
