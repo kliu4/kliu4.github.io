@@ -14,15 +14,19 @@ tags:
 
 ## Solid Design Principles
 
-### 1. Single Responsibility Principle (SSR)
+### Single Responsibility Principle (SSR)
 
 A Class will do one thing only.
 
-### 1. Open-Closed Principle (OCP)
+### Open-Closed Principle (OCP)
 
 Class should be open to extension, but closed for modification.
 
-### 3. Liskov Substitution Principle (LSP)
+### Liskov Substitution Principle (LSP)
 
 Any places use the parent class could be replaced by subtype class without errors.
+
+### Interface Segregation Principle (ISP)
+
+Segregate interfaces to small interfaces rather than using one big interface. 
 
