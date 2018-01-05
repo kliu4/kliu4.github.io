@@ -12,7 +12,7 @@ tags:
 
 `Design Patterns` are general architectural solutions. Following `Design Patterns` could speed up the development of robust applications.
 
-## Solid Design Principles
+## SOLID Design Principles
 
 ### Single Responsibility Principle (SSR)
 
@@ -29,4 +29,11 @@ Any places use the parent class could be replaced by subtype class without error
 ### Interface Segregation Principle (ISP)
 
 Segregate interfaces to small interfaces rather than using one big interface. 
+
+### Dependency Inversion Principle (DIP)
+
+A. High-level module should not depend on Low-level modules, both should depend on abstractions  
+B. Abstractions should not depend on details, details should depend on abstractions
+
+High Level Classes --> Abstraction Layer --> Low Level Classes
 
