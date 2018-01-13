@@ -22,13 +22,13 @@ E.g., Alaphgo
 
 ## Supervised machine learning
 
-learing from the training data set with the correct answer, then improve the performance. E.g., using twitter data to predict the sentiment. 
+Learning from the training data set with the correct answer, then improve the performance. E.g., using twitter data to predict the sentiment. 
 
 Supervised learning problems are categorized into "regression" and "classification" problems.
 
 ## Unsupervised machine learning
 
-giving the machine data and expect the machine return the correct answer. E.g., `alphago zero` uses unsupervised machine learning.
+giving the machine data and expect the machine return the correct answer. 
 
 Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
 
@@ -45,6 +45,8 @@ Cost function is used to measure the average acuracy of the hyperthesis function
 
 ## Gradient Descent
 
-An interate way to find the a and b. It needs to update a and b simultaneously.
+An interate way to find the a and b. It needs to update a and b simultaneously. Learning rate must be set as an appropriate value.
+
+
 
 
