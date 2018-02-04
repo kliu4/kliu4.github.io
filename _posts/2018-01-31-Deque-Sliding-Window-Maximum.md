@@ -13,11 +13,9 @@ tags:
 
 Deque is an useful data structure to implement stack and queue. Followings are the operations:
 
-|         | First Element (Head) | Last Element (Tail) |
-|---------|----------------------|---------------------|
-| Insert  | offerFirst(e)        | offerLast(e)        |
-| Remove  | pollFirst()          | pollLast()          |
-| Examine | peekFirst()          | peekLast()          |
+Insert: offerFirst(e), offerLast(e)
+Remove: pollFirst(), pollLast()
+Examine: peekFirst(), peekLast()
 
 Since it implemnts stack and queue, the above operations has O(1) time complexity.
 
