@@ -15,7 +15,6 @@ Find peak Element I is very easy, using the naive binary search could solve it.
 
 For the Find peak Element II, it is to ask to find peak element in 2d array, e.g, to find peak elements in following table.
 
-{% raw %}
 ```
 [  
   [0,  0,  0,  0,  0,  0,  0,  0,  0]  
@@ -61,7 +60,6 @@ Then find its four neighbors, if all are smaller than it, it is the peak element
   [0,  0,  0,  0,  **0**,  0,  0,  0,  0]  
 ]  
 ```
-{% endraw %}
 
 Recursively to do this and find the peak element.
 
