@@ -63,7 +63,7 @@ Then find its four neighbors, if all are smaller than it, it is the peak element
 </pre> 
 
 
-Recursively to do this and find the peak element.
+Recursively to do this and find the peak element (17).
 
 ## Time Complexity
 ```
