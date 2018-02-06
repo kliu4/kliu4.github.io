@@ -15,7 +15,7 @@ Find peak Element I is very easy, using the naive binary search could solve it.
 
 For the Find peak Element II, it is to ask to find peak element in 2d array, e.g, to find peak elements in following table.
 
-```
+<pre>
 [  
   [0,  0,  0,  0,  0,  0,  0,  0,  0]  
   [0, 12,  9,  3,  4,  5,  7,  8,  0]  
@@ -27,7 +27,8 @@ For the Find peak Element II, it is to ask to find peak element in 2d array, e.g
   [0,  7,  9,  2,  7, 29, 11,  9,  0]  
   [0,  0,  0,  0,  0,  0,  0,  0,  0]  
 ]  
-```
+</pre>
+
 ## Solution
 
 Find max value in center row and center column (13), see bellow:
