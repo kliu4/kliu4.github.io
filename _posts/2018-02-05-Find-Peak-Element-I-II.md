@@ -80,6 +80,55 @@ T(n) = T(n/4) + 2n
 {% raw %}
 
 ```liquid
+public class Solution {
+	public List<Integer> findPeakII(int[][] A) {
+		return helper(A, 0, A.length - 1, 0, A[0].length - 1);
+	}
 
+	List<Integer> helper(int[][] A, int top, int bottom, int left, int right) {
+		int midRow = top + (bottom - top) / 2;
+		int midCol = left + (right - left) / 2;
+		int max = A[midRow][midCol];
+		int x = midRow;
+		int y = midCol;
+
+		for (int i = left; i <= right; i++) {
+			if (max < A[midRow][i]) {
+				max = A[midRow][i];
+				y = i;
+			}
+		}
+
+		for (int i = top; i <= bottom; i++) {
+			if (max < A[i][midCol]) {
+				max = A[i][midCol];
+				x = i;
+				y = midCol;
+			}
+		}
+
+		int[] dx = { 1, -1, 0, 0 };
+		int[] dy = { 0, 0, 1, -1 };
+
+		for (int i = 0; i < 4; i++) {
+			int newX = x + dx[i];
+			int newY = y + dy[i];
+			if (A[newX][newY] > max) {
+				int newLeft = newX >= midCol ? midCol + 1 : left;
+				int newRight = newX >= midCol ? right: midCol - 1;
+				int newTop = newY >= midRow ? midRow + 1 : top;
+				int newBottom = newY >= midRow ? bottom: midRow - 1;
+				return helper(A, newTop, newBottom, newLeft, newRight);
+			}
+		}
+
+		return Arrays.asList(x, y);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new T001().findPeakII(new int[][] { { 1, 2, 4, 3 }, { 5, 6, 8, 7 }, { 9, 10, 12, 11 },
+				{ 13, 14, 16, 15 }, { 21, 22, 24, 23 }, { 17, 18, 20, 19 } }));
+	}
+};
 ```
 {% endraw %}
