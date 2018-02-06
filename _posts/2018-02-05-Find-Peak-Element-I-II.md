@@ -31,7 +31,7 @@ For the Find peak Element II, it is to ask to find peak element in 2d array, e.g
 ## Solution
 
 Find max value in center row and center column (13), see bellow:
-```
+
 <pre>
 [  
   [0,  0,  0,  0,  **0**,  0,  0,  0,  0]  
@@ -45,7 +45,7 @@ Find max value in center row and center column (13), see bellow:
   [0,  0,  0,  0,  **0**,  0,  0,  0,  0]  
 ]  
 <pre>
-```
+
 Then find its four neighbors, if all are smaller than it, it is the peak element; otherwise, find a bigger element (14) and its area (the top right corner)
 ```
 [  
