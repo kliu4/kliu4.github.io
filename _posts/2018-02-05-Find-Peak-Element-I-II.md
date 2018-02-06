@@ -61,9 +61,11 @@ Recursively to do this and find the peak element.
 
 ## Time Complexity
 
-T(n) = T(n/4) + 2n = T(n/16) + n/2 + 2n = T(n/64) + n/8 + n/2 + 2n
-     = T(1) + (2 + 1/2 + 1/8 + ...)*n
-     = T(n)
+T(n) = T(n/4) + 2n  
+     = T(n/16) + n/2 + 2n  
+     = T(n/64) + n/8 + n/2 + 2n  
+     = T(1) + (2 + 1/2 + 1/8 + ...)*n  
+     = T(n)  
 
 {% raw %}
 ```liquid
