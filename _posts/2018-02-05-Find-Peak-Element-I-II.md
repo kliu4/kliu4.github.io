@@ -47,7 +47,7 @@ Find max value in center row and center column (13), see bellow:
 </pre>
 
 Then find its four neighbors, if all are smaller than it, it is the peak element; otherwise, find a bigger element (14) and its area (the top right corner)
-```
+
 <pre>
 [  
   [0,  0,  0,  0,  <i><b>0</b></i>,  0,  <i><b>0</b></i>,  0,  0]  
@@ -61,7 +61,7 @@ Then find its four neighbors, if all are smaller than it, it is the peak element
   [0,  0,  0,  0,  <i><b>0</b></i>,  0,  0,  0,  0]  
 ]  
 </pre> 
-```
+
 
 Recursively to do this and find the peak element.
 
