@@ -126,7 +126,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new T001().findPeakII(new int[][] { { 1, 2, 4, 3 }, { 5, 6, 8, 7 }, { 9, 10, 12, 11 },
+		System.out.println(new Solution().findPeakII(new int[][] { { 1, 2, 4, 3 }, { 5, 6, 8, 7 }, { 9, 10, 12, 11 },
 				{ 13, 14, 16, 15 }, { 21, 22, 24, 23 }, { 17, 18, 20, 19 } }));
 	}
 };
