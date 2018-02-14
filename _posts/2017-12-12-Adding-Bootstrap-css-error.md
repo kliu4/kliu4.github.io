@@ -28,7 +28,7 @@ You may need an appropriate loader to handle this file type.
 {% endraw %}
 
 
-## Solution I
+## Solution
 
 Install following packages:
 
@@ -71,7 +71,7 @@ SyntaxError: Unexpected token {
 ```
 {% endraw %}
 
-## Solution I
+## Solution
 
 Install following packages:
 
