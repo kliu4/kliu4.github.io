@@ -21,6 +21,7 @@ var newArray2 = arr.map(callback);
 ## `filter()` vs `map()`
 
 `filter()`'s callback is to test each element of the array. The callback return `true` or `false`. So, the `length of the new array does not have to be equal to the length of the old array`.
+
 `map()`'s callback is to calculate an element for each element in the old array. Even if you add some condition to filter elements from old array, it still return new element (mostly it is `undefined`) for those old element do not meet the conditions. So, the `length of the new array has to be equal to the length of the old array`.
 
 ## Example
