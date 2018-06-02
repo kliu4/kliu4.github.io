@@ -12,6 +12,8 @@ main:
     url: https://kliu4.github.io/categories/#react
   - title: "Unity3d"
     url: https://kliu4.github.io/categories/#unity3d
+  - title: "Others"
+    url: https://kliu4.github.io/categories/#others
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
