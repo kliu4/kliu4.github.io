@@ -22,7 +22,7 @@ Then Change your App.js to following:
 ```
 import React, { Component } from "react";
 
-var ol = require("ol/ol.css");
+require("ol/ol.css");
 var ol_Map = require("ol/map").default;
 var ol_layer_Tile = require("ol/layer/tile").default;
 var ol_source_OSM = require("ol/source/osm").default;
