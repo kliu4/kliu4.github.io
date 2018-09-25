@@ -12,7 +12,7 @@ tags:
 
 ## Introduction
 
-There are max-flow implementation using C++, here is a simple implementation using java:
+There are many max-flow implementations using C++, however, it is hard to find java implementation. Following is a simple implementation using java:
 
 ## Implementation
 
