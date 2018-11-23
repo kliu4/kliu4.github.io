@@ -17,7 +17,10 @@ There are many max-Bipartite-Matching implementations using C++, however, it is 
 ## Implementation
 
 ```
-int n;
+import java.util.Arrays;
+
+public class MaxMatch {
+    int n;
     int m;
     int[][] grid;
     int[] link;
@@ -65,5 +68,6 @@ int n;
         graph[3][3] = 1;
         System.out.println(new MaxMatch().hungraian(graph));
     }
+}
 
 ```
