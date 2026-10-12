@@ -2,6 +2,8 @@
 main:
   - title: "Algorithm"
     url: https://kliu4.github.io/categories/#algorithm
+  - title: "Machine Learning"
+    url: https://kliu4.github.io/categories/#machine-learning
   - title: "Computing"
     url: https://kliu4.github.io/categories/#computing
   - title: "Java"
